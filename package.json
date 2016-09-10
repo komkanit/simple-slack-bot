@@ -4,11 +4,14 @@
   "description": "Sample app to show working with slack-terminalize module",
   "main": "index.js",
   "dependencies": {
+    "config": "^1.21.0",
+    "moment": "^2.14.1",
     "request": "^2.65.0",
     "slack-terminalize": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
